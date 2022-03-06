@@ -1,0 +1,14 @@
+2022-03-06 00:41:11.112  INFO 8372 --- [main] c.e.a.AntraAssignmentApplication         : Starting AntraAssignmentApplication using Java 11.0.14 on DESKTOP-TJO8R8A with PID 8372 (C:\Users\duy-pc\rest-demo-2\target\classes started by duy-pc in C:\Users\duy-pc\rest-demo-2)
+2022-03-06 00:41:11.114  INFO 8372 --- [main] c.e.a.AntraAssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-03-06 00:41:11.577  INFO 8372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-06 00:41:11.583  INFO 8372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-06 00:41:11.583  INFO 8372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-06 00:41:11.631  INFO 8372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-06 00:41:11.632  INFO 8372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 484 ms
+2022-03-06 00:41:11.829  INFO 8372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-06 00:41:11.836  INFO 8372 --- [main] c.e.a.AntraAssignmentApplication         : Started AntraAssignmentApplication in 0.957 seconds (JVM running for 1.549)
+2022-03-06 00:41:21.323  INFO 8372 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-06 00:41:21.324  INFO 8372 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-06 00:41:21.324  INFO 8372 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-06 00:41:21.406  INFO 8372 --- [http-nio-8080-exec-2] c.e.a.controllers.ProductController      : Successfully update product id 1
+2022-03-06 01:05:35.124  INFO 8372 --- [http-nio-8080-exec-4] c.e.a.controllers.ProductController      : Successfully get 6 products
